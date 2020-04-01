@@ -26,7 +26,7 @@ clear este cea pe care am folosit o pt reset.
 Lab 5:
 Clasa Document are proprietatile id, name location unde location reprezinta path ul in sistem. Am afacut override la equals pentru a putea compara doua "documente", ovverride la toString pt a putea afisa informatiile despre obiect.
 Pt catalog care are proprietatile name, path(ce reprezinta path ul in sistem) si documents care este o lista cu documente obiecte ale clasei document.Metoda findByld imi returneaza un doc din cataloc care are un anumit id.
-CatalogUtil cu metodele Save care primeste ca parametru un obiect Catalog pe care il serializeaza si il salveaza in path in sistem.Metoda load primeste un path si incarca obiectul de path-ul respectiv si il deserializeaza si afiseaza mesaj daca a fost gasit si deserializat cu succes. Metoda view care primeste ca parametru documentul si il deschide pe desktop. Iar in main creez un catalog si un document adaug documentul in catalog si salvez catalogul in sistem serializat.
+CatalogUtil cu metodele Save care primeste ca parametru un obiect Catalog pe care il serializeaza si il salveaza in path in sistem.Metoda load primeste un path si incarca obiectul de path-ul respectiv si il deserializeaza si afiseaza mesaj daca a fost gasit si deserializat cu succes. Metoda view care primeste ca parametru documentul si il deschide pe desktop. Iar in main creez un catalog si un document adaug documentul in catalog si salvez catalogul in sistem serializat apoi deschid catalogul deserializandu l din sistem caut documentul pe care l am bagat in catalog si il dechid in Desktop.
 
 
 
