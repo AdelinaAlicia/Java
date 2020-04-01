@@ -8,4 +8,20 @@ Cat timp avem noduri pe varful stivei, le luam si cautam noduri adiacente nevizi
 si le marcam cu numarul componentei conexe din care fac parte. Daca la final graful are o singura componenta conexa, 
 inseamna ca este conex.
 
+Laboratorul 7:
+-Am pasii explicati pe cod
+
+Laboratorul 6:
+MainFrame:pozitionam cele 3 cntrpenel, canvas,configpanel in pozitiile respective
+folosim o noua clasa pentru ConfigPanel
+pentru inceput am selectat numarul de noduri si am setat nr ca default iar apoi cele doua posibilitati de shape-uri le am pus in stringul colors
+Pt ControlPanel avem o alta clasa creand cele 4 butoane necesare le am adaugat si le am atribuit actiune iar mai jos am codat cele 4 actiuni
+cea de save salveaza desenul sub dforma de poza, load ul o incarca cea de reset reseteaza tabla iar exitul iese din aplicatie
+Pt drawingPanel avem o alta clasa
+Mi am setat in W si H lungimea si latimea aplicatiei, de asemenea mi am setat si culoarea.
+apoi am generat un nr random in drawshape, am luat numarul de lanturi, iar daca culoarea era cea potricitageneram o culoare random
+clear este cea pe care am folosit o pt reset.
+
+
+
 
